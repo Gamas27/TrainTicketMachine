@@ -1,0 +1,635 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 32,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Models/Station.swift",
+      "line": 11,
+      "symbol": "Station",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Models/Station.swift",
+      "line": 12,
+      "symbol": "Station.stationId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Models/Station.swift",
+      "line": 13,
+      "symbol": "Station.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Models/Station.swift",
+      "line": 14,
+      "symbol": "Station.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 15,
+      "symbol": "SearchStationsBusinessLogic",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 16,
+      "symbol": "SearchStationsBusinessLogic.fetchStationsList(request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 17,
+      "symbol": "SearchStationsBusinessLogic.filterStationsList(request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 18,
+      "symbol": "SearchStationsBusinessLogic.matchingLettersList(request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 21,
+      "symbol": "SearchStationsDataStore",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 22,
+      "symbol": "SearchStationsDataStore.stations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 25,
+      "symbol": "SearchStationsInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 26,
+      "symbol": "SearchStationsInteractor.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 27,
+      "symbol": "SearchStationsInteractor.worker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 28,
+      "symbol": "SearchStationsInteractor.stations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 29,
+      "symbol": "SearchStationsInteractor.filteredStations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsInteractor.swift",
+      "line": 30,
+      "symbol": "SearchStationsInteractor.matchingLettersForResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 28,
+      "symbol": "SearchStations.FetchStationsList.Request",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 30,
+      "symbol": "SearchStations.FetchStationsList.Response",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 31,
+      "symbol": "SearchStations.FetchStationsList.Response.stations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 33,
+      "symbol": "SearchStations.FetchStationsList.ViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 34,
+      "symbol": "SearchStations.FetchStationsList.ViewModel.DisplayedStation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 35,
+      "symbol": "SearchStations.FetchStationsList.ViewModel.DisplayedStation.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 37,
+      "symbol": "SearchStations.FetchStationsList.ViewModel.displayedStation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 42,
+      "symbol": "SearchStations.FilterStationsList.Request",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 43,
+      "symbol": "SearchStations.FilterStationsList.Request.stationsList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 44,
+      "symbol": "SearchStations.FilterStationsList.Request.textInput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 46,
+      "symbol": "SearchStations.FilterStationsList.Response",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 47,
+      "symbol": "SearchStations.FilterStationsList.Response.filteredStations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 49,
+      "symbol": "SearchStations.FilterStationsList.ViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 50,
+      "symbol": "SearchStations.FilterStationsList.ViewModel.DisplayedFilteredStation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 51,
+      "symbol": "SearchStations.FilterStationsList.ViewModel.DisplayedFilteredStation.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 53,
+      "symbol": "SearchStations.FilterStationsList.ViewModel.displayedFilteredStation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 58,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.Request",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 59,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.Request.filteredResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 60,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.Request.textToTrim",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 62,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.Response",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 63,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.Response.matchingLettersList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 65,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.ViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsModels.swift",
+      "line": 66,
+      "symbol": "SearchStations.MatchingLettersForFilteredResults.ViewModel.matchingLettersList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsPresenter.swift",
+      "line": 15,
+      "symbol": "SearchStationsPresentationLogic",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsPresenter.swift",
+      "line": 16,
+      "symbol": "SearchStationsPresentationLogic.presentStationsList(response:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsPresenter.swift",
+      "line": 17,
+      "symbol": "SearchStationsPresentationLogic.presentFilteredStationsList(response:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsPresenter.swift",
+      "line": 18,
+      "symbol": "SearchStationsPresentationLogic.presentMatchingLettersForResultsList(response:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsPresenter.swift",
+      "line": 21,
+      "symbol": "SearchStationsPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsPresenter.swift",
+      "line": 22,
+      "symbol": "SearchStationsPresenter.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": null,
+      "symbol": "SearchStationsViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 15,
+      "symbol": "SearchStationsDisplayLogic",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 16,
+      "symbol": "SearchStationsDisplayLogic.displayStationsList(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 17,
+      "symbol": "SearchStationsDisplayLogic.displayFilteredStationsList(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 18,
+      "symbol": "SearchStationsDisplayLogic.displayMatchingLettersForResultsList(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 23,
+      "symbol": "SearchStationsViewController.updateSearchResults(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 35,
+      "symbol": "SearchStationsViewControllerStrings",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 36,
+      "symbol": "SearchStationsViewControllerStrings.title",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 37,
+      "symbol": "SearchStationsViewControllerStrings.searchBarPlaceholder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 38,
+      "symbol": "SearchStationsViewControllerStrings.fullStationTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 39,
+      "symbol": "SearchStationsViewControllerStrings.matchingStationsTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 40,
+      "symbol": "SearchStationsViewControllerStrings.matchingLettersTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 41,
+      "symbol": "SearchStationsViewControllerStrings.stationCellTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 44,
+      "symbol": "SearchStationsViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 45,
+      "symbol": "SearchStationsViewController.interactor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 46,
+      "symbol": "SearchStationsViewController.displayedStationList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 47,
+      "symbol": "SearchStationsViewController.displayedFilteredStationList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 48,
+      "symbol": "SearchStationsViewController.displayedMatchingLettersForResultsList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 52,
+      "symbol": "SearchStationsViewController.init(nibName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 57,
+      "symbol": "SearchStationsViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 73,
+      "symbol": "SearchStationsViewController.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 76,
+      "symbol": "SearchStationsViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 89,
+      "symbol": "SearchStationsViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 97,
+      "symbol": "SearchStationsViewController.searchBarIsEmpty()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 101,
+      "symbol": "SearchStationsViewController.isFiltering()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 106,
+      "symbol": "SearchStationsViewController.fetchStationList()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 111,
+      "symbol": "SearchStationsViewController.filterStationListForTextInput(list:input:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 116,
+      "symbol": "SearchStationsViewController.matchingLettersForFilteredList(list:textToTrim:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 122,
+      "symbol": "SearchStationsViewController.displayStationsList(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 127,
+      "symbol": "SearchStationsViewController.displayFilteredStationsList(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 132,
+      "symbol": "SearchStationsViewController.displayMatchingLettersForResultsList(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 138,
+      "symbol": "SearchStationsViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 142,
+      "symbol": "SearchStationsViewController.tableView(_:titleForHeaderInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 158,
+      "symbol": "SearchStationsViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsViewController.swift",
+      "line": 165,
+      "symbol": "SearchStationsViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsWorker.swift",
+      "line": 15,
+      "symbol": "SearchStationsWorker",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine/TrainTicketMachine/Scenes/SearchStations/SearchStationsWorker.swift",
+      "line": 16,
+      "symbol": "SearchStationsWorker.fetchStationsList()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Gameiro/Documents/workspace/TruphoneAssessment/TrainTicketMachine/TrainTicketMachine"
+}

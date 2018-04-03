@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SearchStationsViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/SearchStationsViewController" class="dashAnchor"></a>
+    <a title="SearchStationsViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (10% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SearchStationsViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchStationsInteractor.html">SearchStationsInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchStationsPresenter.html">SearchStationsPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchStationsViewController.html">SearchStationsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchStationsWorker.html">SearchStationsWorker</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/SearchStations.html">SearchStations</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SearchStations/FetchStationsList.html">– FetchStationsList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SearchStations/FilterStationsList.html">– FilterStationsList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SearchStations/MatchingLettersForFilteredResults.html">– MatchingLettersForFilteredResults</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SearchStationsBusinessLogic.html">SearchStationsBusinessLogic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SearchStationsDataStore.html">SearchStationsDataStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SearchStationsDisplayLogic.html">SearchStationsDisplayLogic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SearchStationsPresentationLogic.html">SearchStationsPresentationLogic</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SearchStationsViewControllerStrings.html">SearchStationsViewControllerStrings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Station.html">Station</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SearchStationsViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">SearchStationsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/SearchStationsDisplayLogic.html">SearchStationsDisplayLogic</a></span><span class="p">,</span> <span class="kt">UITableViewDataSource</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC10interactorAA0dE13BusinessLogic_pSgv"></a>
+                    <a name="//apple_ref/swift/Property/interactor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC10interactorAA0dE13BusinessLogic_pSgv">interactor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">interactor</span><span class="p">:</span> <span class="kt"><a href="../Protocols/SearchStationsBusinessLogic.html">SearchStationsBusinessLogic</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC20displayedStationListSayAA0dE0O05FetcheJ0O0F5ModelV09DisplayedI0VGv"></a>
+                    <a name="//apple_ref/swift/Property/displayedStationList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC20displayedStationListSayAA0dE0O05FetcheJ0O0F5ModelV09DisplayedI0VGv">displayedStationList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">displayedStationList</span> <span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">FetchStationsList</span><span class="o">.</span><span class="kt">ViewModel</span><span class="o">.</span><span class="kt">DisplayedStation</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC28displayedFilteredStationListSayAA0dE0O06FiltereK0O0F5ModelV09DisplayediJ0VGv"></a>
+                    <a name="//apple_ref/swift/Property/displayedFilteredStationList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC28displayedFilteredStationListSayAA0dE0O06FiltereK0O0F5ModelV09DisplayediJ0VGv">displayedFilteredStationList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">displayedFilteredStationList</span> <span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">FilterStationsList</span><span class="o">.</span><span class="kt">ViewModel</span><span class="o">.</span><span class="kt">DisplayedFilteredStation</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC38displayedMatchingLettersForResultsListSaySSGv"></a>
+                    <a name="//apple_ref/swift/Property/displayedMatchingLettersForResultsList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC38displayedMatchingLettersForResultsListSaySSGv">displayedMatchingLettersForResultsList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">displayedMatchingLettersForResultsList</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span><span class="p">]()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Object%20lifecycle"></a>
+                <a name="//apple_ref/swift/Section/Object lifecycle" class="dashAnchor"></a>
+                <a href="#/Object%20lifecycle">
+                  <h3 class="section-name">Object lifecycle</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)initWithNibName:bundle:"></a>
+                    <a name="//apple_ref/swift/Method/init(nibName:bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)initWithNibName:bundle:">init(nibName:bundle:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="n">nibName</span> <span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">bundle</span> <span class="nv">nibBundleOrNil</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)initWithCoder:">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <a href="#/Properties">
+                  <h3 class="section-name">Properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(py)tableView"></a>
+                    <a name="//apple_ref/swift/Property/tableView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(py)tableView">tableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/View%20lifecycle"></a>
+                <a name="//apple_ref/swift/Section/View lifecycle" class="dashAnchor"></a>
+                <a href="#/View%20lifecycle">
+                  <h3 class="section-name">View lifecycle</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Search%20Helper%20Methods"></a>
+                <a name="//apple_ref/swift/Section/Search Helper Methods" class="dashAnchor"></a>
+                <a href="#/Search%20Helper%20Methods">
+                  <h3 class="section-name">Search Helper Methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC16searchBarIsEmptySbyF"></a>
+                    <a name="//apple_ref/swift/Method/searchBarIsEmpty()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC16searchBarIsEmptySbyF">searchBarIsEmpty()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">searchBarIsEmpty</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC11isFilteringSbyF"></a>
+                    <a name="//apple_ref/swift/Method/isFiltering()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC11isFilteringSbyF">isFiltering()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isFiltering</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC16fetchStationListyyF"></a>
+                    <a name="//apple_ref/swift/Method/fetchStationList()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC16fetchStationListyyF">fetchStationList()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fetchStationList</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC29filterStationListForTextInputySayAA0dE0O05FetcheJ0O0F5ModelV09DisplayedI0VG4list_SS5inputtF"></a>
+                    <a name="//apple_ref/swift/Method/filterStationListForTextInput(list:input:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC29filterStationListForTextInputySayAA0dE0O05FetcheJ0O0F5ModelV09DisplayedI0VG4list_SS5inputtF">filterStationListForTextInput(list:input:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">filterStationListForTextInput</span><span class="p">(</span><span class="nv">list</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">FetchStationsList</span><span class="o">.</span><span class="kt">ViewModel</span><span class="o">.</span><span class="kt">DisplayedStation</span><span class="p">],</span> <span class="nv">input</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC30matchingLettersForFilteredListySayAA0dE0O06FiltereL0O0F5ModelV09DisplayedK7StationVG4list_SS10textToTrimtF"></a>
+                    <a name="//apple_ref/swift/Method/matchingLettersForFilteredList(list:textToTrim:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC30matchingLettersForFilteredListySayAA0dE0O06FiltereL0O0F5ModelV09DisplayedK7StationVG4list_SS10textToTrimtF">matchingLettersForFilteredList(list:textToTrim:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">matchingLettersForFilteredList</span><span class="p">(</span><span class="nv">list</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">FilterStationsList</span><span class="o">.</span><span class="kt">ViewModel</span><span class="o">.</span><span class="kt">DisplayedFilteredStation</span><span class="p">],</span> <span class="nv">textToTrim</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Display%20Data%20Helper%20Methods"></a>
+                <a name="//apple_ref/swift/Section/Display Data Helper Methods" class="dashAnchor"></a>
+                <a href="#/Display%20Data%20Helper%20Methods">
+                  <h3 class="section-name">Display Data Helper Methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC07displayE4ListyAA0dE0O05FetcheI0O0F5ModelV04viewK0_tF"></a>
+                    <a name="//apple_ref/swift/Method/displayStationsList(viewModel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC07displayE4ListyAA0dE0O05FetcheI0O0F5ModelV04viewK0_tF">displayStationsList(viewModel:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">displayStationsList</span><span class="p">(</span><span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">FetchStationsList</span><span class="o">.</span><span class="kt">ViewModel</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC015displayFilteredE4ListyAA0dE0O06FiltereJ0O0F5ModelV04viewL0_tF"></a>
+                    <a name="//apple_ref/swift/Method/displayFilteredStationsList(viewModel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC015displayFilteredE4ListyAA0dE0O06FiltereJ0O0F5ModelV04viewL0_tF">displayFilteredStationsList(viewModel:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">displayFilteredStationsList</span><span class="p">(</span><span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">FilterStationsList</span><span class="o">.</span><span class="kt">ViewModel</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18TrainTicketMachine28SearchStationsViewControllerC36displayMatchingLettersForResultsListyAA0dE0O0ijk8FilteredL0O0F5ModelV04viewO0_tF"></a>
+                    <a name="//apple_ref/swift/Method/displayMatchingLettersForResultsList(viewModel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18TrainTicketMachine28SearchStationsViewControllerC36displayMatchingLettersForResultsListyAA0dE0O0ijk8FilteredL0O0F5ModelV04viewO0_tF">displayMatchingLettersForResultsList(viewModel:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">displayMatchingLettersForResultsList</span><span class="p">(</span><span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Enums/SearchStations.html">SearchStations</a></span><span class="o">.</span><span class="kt">MatchingLettersForFilteredResults</span><span class="o">.</span><span class="kt">ViewModel</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Table%20view%20data%20source"></a>
+                <a name="//apple_ref/swift/Section/Table view data source" class="dashAnchor"></a>
+                <a href="#/Table%20view%20data%20source">
+                  <h3 class="section-name">Table view data source</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)numberOfSectionsInTableView:"></a>
+                    <a name="//apple_ref/swift/Method/numberOfSections(in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)numberOfSectionsInTableView:">numberOfSections(in:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">numberOfSections</span><span class="p">(</span><span class="k">in</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)tableView:titleForHeaderInSection:"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:titleForHeaderInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)tableView:titleForHeaderInSection:">tableView(_:titleForHeaderInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">titleForHeaderInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)tableView:numberOfRowsInSection:"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:numberOfRowsInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)tableView:numberOfRowsInSection:">tableView(_:numberOfRowsInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">numberOfRowsInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)tableView:cellForRowAtIndexPath:"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:cellForRowAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TrainTicketMachine@objc(cs)SearchStationsViewController(im)tableView:cellForRowAtIndexPath:">tableView(_:cellForRowAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">cellForRowAt</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UITableViewCell</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UISearchResultsUpdating%20Delegate"></a>
+                <a name="//apple_ref/swift/Section/UISearchResultsUpdating Delegate" class="dashAnchor"></a>
+                <a href="#/UISearchResultsUpdating%20Delegate">
+                  <h3 class="section-name">UISearchResultsUpdating Delegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@TrainTicketMachine@objc(cs)SearchStationsViewController(im)updateSearchResultsForSearchController:"></a>
+                    <a name="//apple_ref/swift/Method/updateSearchResults(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@TrainTicketMachine@objc(cs)SearchStationsViewController(im)updateSearchResultsForSearchController:">updateSearchResults(for:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateSearchResults</span><span class="p">(</span><span class="k">for</span> <span class="nv">searchController</span><span class="p">:</span> <span class="kt">UISearchController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-04-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
